@@ -1,7 +1,5 @@
 # pangolin-nf
 
-# pangolin-nf
-
 
 ## Run script
 ### Step1: load/install conda and nextflow 
