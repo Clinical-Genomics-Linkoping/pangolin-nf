@@ -1,7 +1,9 @@
 #!/usr/bin/env nextflow
-params.output = "${baseDir}/results/"
 
-input = Channel.fromPath("${baseDir}/data/*.{fasta,fa}")
+params.rootDir = "$PWD/"
+params.output = "${params.rootDir}/results/"
+
+input = Channel.fromPath("$PWD/data/*.{fasta,fa}")
 
 process pangolin {
     publishDir params.output + '/pangolin_out', mode: 'copy'
@@ -12,8 +14,8 @@ process pangolin {
     
     script:
     """
-    mkdir -p ${baseDir}/results/
+    mkdir -p ${params.rootDir}/results
     pangolin $input \\
-        --outfile ${input}.pangolin.csv --outdir $params.output
+        --outfile ${input}.pangolin.csv --outdir ${params.rootDir}/results/
     """
 }
