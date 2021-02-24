@@ -17,7 +17,7 @@ process pyTask {
     import pandas as pd
     from datetime import datetime
     import os
-    os.chdir("/home/jyotirmoy/Documents/test_nf/")
+    os.chdir("/home/$USER/Documents/pangolin-nf/")
     
     url = 'https://cov-lineages.org/lineages.html'
     html = requests.get(url).content
