@@ -27,7 +27,7 @@ nextflow run pangolin2.nextflow
 
 will generate the **output files** with database information
 
-Pangolin_Lineages_Reference_{}.csv
+Pangolin_Lineages_Reference_{}.csv \
 Pangolin_final_report_{}.csv
 
 *To view the output file, please visit the [Wiki page](https://github.com/Clinical-Genomics-Linkoping/pangolin-nf/wiki)*
