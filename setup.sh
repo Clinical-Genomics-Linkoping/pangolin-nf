@@ -8,3 +8,5 @@ if [ $NAME ]; then
 else
     conda env create -f $scriptdir/env.yaml
 fi
+
+
