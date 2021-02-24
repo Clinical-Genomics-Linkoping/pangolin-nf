@@ -19,7 +19,7 @@ nextflow run main.nf
 ```
 
 ## Output file will be generated
-{inputName}.pangolin.csv \
+{inputName}.pangolin.csv 
 
 Please visit the [wiki page](https://github.com/Clinical-Genomics-Linkoping/pangolin-nf/wiki) to see the output file
 
