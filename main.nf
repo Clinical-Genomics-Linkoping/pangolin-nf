@@ -9,7 +9,7 @@ Created on Fri Feb 22 11:21:20 2021
   mainScript = 'main.nf'
   nextflowVersion = '>=20.10.0'
   version = '0.1.0'
-"""*/
+*/
 
 params.rootDir = "$PWD"
 
@@ -25,11 +25,10 @@ process pangolin {
     
     script:
     """
+    mkdir -p ${params.rootDir}/results
     pangolin $input \\
-        --outfile ${input}.pangolin.csv --outdir ${params.rootDir} \\
+        --outfile ${input}.pangolin.csv --outdir ${params.rootDir}/results/ \\
         --threads 16 \\
-        --max-ambig 0.5 \\
-        --min-length 5000 \\
-        -v
+
     """
 }
