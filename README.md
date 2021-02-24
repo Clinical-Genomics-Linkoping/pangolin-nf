@@ -21,7 +21,7 @@ nextflow run main.nf
 
 ## Run second nextflow to combine with database version
 ```
-conda deactivate
+conda deactivate or open a new terminal
 
 **reminder: change your result directory path in the script**
 
