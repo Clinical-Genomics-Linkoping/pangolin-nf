@@ -32,6 +32,6 @@ nextflow run pangolin2.nextflow
 
 will generate the output files with database information
 
-Pangolin_final_report_{}.csv
+Pangolin_Final_report_{}.csv
 
 Please visit the [wiki page](https://github.com/Clinical-Genomics-Linkoping/pangolin-nf/wiki) to see the output file
