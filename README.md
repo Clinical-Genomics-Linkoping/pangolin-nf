@@ -27,7 +27,10 @@ Please visit the [wiki page](https://github.com/Clinical-Genomics-Linkoping/pang
 ## Run second nextflow to combine with database version
 ```
 conda deactivate
-nextflow run pangolin2.nextflow
+
+***Please change the directory path in the script file with the absolute path ***
+
+nextflow run pangolin2.nf
 ```  
 
 will generate the output files with database information
