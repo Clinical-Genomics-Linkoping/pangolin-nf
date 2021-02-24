@@ -1,5 +1,8 @@
 # pangolin-nf
 
+## Input file
+
+Sample input file - single file with multiple FASTA sequences, saved as .fasta or .fa format
 
 ## Run script
 ### Step1: load/install conda and nextflow 
