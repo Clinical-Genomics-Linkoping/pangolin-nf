@@ -19,7 +19,7 @@ process pyTask {
     import pandas as pd
     from datetime import datetime
     import os
-    path = "/home/jyotirmoy/Documents/test1_nf/pangolin-nf/results/" # change result directory path
+    path = "/home/jyotirmoy/Documents/test1_nf/pangolin-nf/" # change result directory path
     os.chdir( path )		
 
     
