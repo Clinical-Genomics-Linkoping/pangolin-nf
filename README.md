@@ -71,7 +71,10 @@ nextflow run main.nf
 
 
 ## Run second nextflow to combine with database version
-```nextflow run pangolin2.nextflow```  
+```
+conda deactivate
+nextflow run pangolin2.nextflow
+```  
 
 will generate the output files with database information
 
