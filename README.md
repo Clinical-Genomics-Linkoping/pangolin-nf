@@ -14,8 +14,7 @@ conda activate Pangolin
 nextflow run main.nf
 ```
 
-## Output file will be generated
-{inputName}.pangolin.csv \
+**Output file** - {inputName}.pangolin.csv \
 
 *To view the output file, please visit the [Wiki page](https://github.com/Clinical-Genomics-Linkoping/pangolin-nf/wiki)*
 
@@ -26,8 +25,9 @@ conda deactivate
 nextflow run pangolin2.nextflow
 ```  
 
-will generate the output files with database information
+will generate the **output files** with database information
 
+Pangolin_Lineages_Reference_{}.csv
 Pangolin_final_report_{}.csv
 
 *To view the output file, please visit the [Wiki page](https://github.com/Clinical-Genomics-Linkoping/pangolin-nf/wiki)*
