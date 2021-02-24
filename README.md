@@ -4,15 +4,13 @@
 ## Run script
 ### Step1: load/install conda and nextflow 
 ```
-module load Anaconda3{or miniconda3}
 module load nextflow-20.10.0
 ```
 
 ### Step2: run the following scripts in terminal 
 ```
-module load nextflow-{ver}
 sh setup.sh
-conda activate pangolin
+conda activate Pangolin
 nextflow run main.nf
 ```
 
