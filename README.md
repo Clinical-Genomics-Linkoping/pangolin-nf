@@ -22,6 +22,9 @@ nextflow run main.nf
 ## Run second nextflow to combine with database version
 ```
 conda deactivate
+
+reminder: change your result directory path in the script
+
 nextflow run pangolin2.nextflow
 ```  
 
