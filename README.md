@@ -23,7 +23,7 @@ nextflow run main.nf
 ```
 conda deactivate
 
-reminder: change your result directory path in the script
+**reminder: change your result directory path in the script**
 
 nextflow run pangolin2.nextflow
 ```  
