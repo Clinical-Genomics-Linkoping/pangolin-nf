@@ -25,9 +25,8 @@ process pangolin {
     
     script:
     """
-    mkdir -p ${params.rootDir}/results
     pangolin $input \\
-        --outfile ${input}.pangolin.csv --outdir ${params.rootDir}/results/ \\
+        --outfile ${input}.pangolin.csv --outdir ${params.rootDir} \\
         --threads 16 \\
         --max-ambig 0.5 \\
         --min-length 5000 \\
