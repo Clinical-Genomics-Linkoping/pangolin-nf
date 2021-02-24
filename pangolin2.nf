@@ -1,12 +1,13 @@
 #!/usr/bin/env nextflow
 /*
-Created on Fri Feb 12 11:21:20 2021
-name = 'Pangolin.nextflow'
-author= 'Jyotirmoy Das'
-description = 'Pangolin output CSV combined with recent Pangolin data from the web'
-mainScript = 'pangolin2.nf'
-nextflowVersion = '>=20.10.0'
-version = '0.1.0'
+Created on Fri Feb 22 11:21:20 2021
+  name = 'pangolin-nf'
+  author = 'Jyotirmoy Das'
+  homePage = 'https://github.com/Clinical-Genomics-Linkoping/pangolin-nf'
+  description = 'Pangolin integration in NextFlow and updated information from Pangolin database'
+  mainScript = 'main.nf'
+  nextflowVersion = '>=20.10.0'
+  version = '0.1.0'
 """*/
 
 
